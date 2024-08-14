@@ -1,4 +1,5 @@
 import './App.css'
+import Authentication from './component/Authentication'
 import NavigBar from './component/NavigBar'
 import Overview from './component/Overview'
 
@@ -12,6 +13,7 @@ function App() {
       </header>
       <NavigBar/>
       <Overview/>
+      <Authentication/>
     </>
   )
 }

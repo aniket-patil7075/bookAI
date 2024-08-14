@@ -69,13 +69,15 @@
   gap: 20px; /* Space between each item */
   margin: auto;
 }
-.overviewMain{
+
+/* ---------------------overview----------------------------  */
+.contain{
   display: flex;
   justify-content: center; /* Center the items horizontally */
   align-items: center;
   
 }
-.overview{
+.main{
   background-color: #1e293b;
    color: #e2e8f0;
    margin-top: 32px;
@@ -85,8 +87,39 @@
    /* text-align: justify; */
 }
 
-#overviewHeader{
+#title{
   color: #a5b4fc;
   padding-top: 32px;
 }
+
+.main .api{
+  width: 100%;
+  border: 1px solid #334155;
+  border-radius:  4px;
+  
+}
+.api-key{
+  padding: 16px;
+  border: 1px solid #334155;
+  border-radius:  4px;
+  margin: 1px;
+}
+.main button{
+  margin-top: 16px;
+  background-color: #22d3ee;
+  padding: 12px 24px;
+  color: #0f172a;
+  font-weight: bold;
+}
+
+.api-button{
+  width: 100%;
+  border: 1px solid #334155;
+  border-radius:  4px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+
+/* ---------------------overview----------------------------  */
 
