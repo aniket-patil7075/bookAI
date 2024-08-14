@@ -120,6 +120,38 @@
   margin-top: 16px;
 }
 
+.table-border {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden; 
+  border: 1px solid #334155;
+}
+
+.table-border thead th {
+  border-bottom: 1px solid #334155; 
+  padding: 16px;
+  background-color: #6366f1;
+  color: #ffffff;
+}
+
+.table-border tbody tr {
+  border-bottom: 1px solid #334155; 
+}
+
+.table-border tbody tr:last-child {
+  border-bottom: 1px solid #334155; 
+}
+
+.table-border tbody td{
+  padding: 16px;
+  color: #e2e8f0;
+  background-color: #1e293b;
+}
+
+.first-col{
+  color: #22d3ee;
+}
 
 /* ---------------------overview----------------------------  */
 
