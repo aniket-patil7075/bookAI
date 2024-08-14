@@ -69,5 +69,24 @@
   gap: 20px; /* Space between each item */
   margin: auto;
 }
+.overviewMain{
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  align-items: center;
+  
+}
+.overview{
+  background-color: #1e293b;
+   color: #e2e8f0;
+   margin-top: 32px;
+   width: 950px;
+   padding: 33px;
+   border-radius: 10px;
+   /* text-align: justify; */
+}
 
+#overviewHeader{
+  color: #a5b4fc;
+  padding-top: 32px;
+}
 
