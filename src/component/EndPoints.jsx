@@ -63,7 +63,7 @@ function EndPoints() {
         </Table>
         <h5 id="title">Response</h5>
         <div className="api">
-            <div className="api-key">{response}</div>
+            <div className="api-key"><pre>{response}</pre></div>
           </div>
       </div>
     </div>

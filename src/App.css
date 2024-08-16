@@ -43,18 +43,39 @@
 
 /* ----------------header---------------------- */
 #header{
-  background-color: rgb(44, 113, 181);
-  color: white;
-  width: 100rem;
+  background-color: #6366f1;
+  color: #ffffff;
+  width: 100%;
   text-align: center;
   height: 150px;
   display: flex;
   justify-content: center;
   place-items: center;
 }
+@media (max-width: 768px) {
+  #header {
+    height: 120px; /* Adjust height for smaller screens */
+    font-size: 1.5rem; /* Adjust font size for better readability */
+  }
+}
+
+@media (max-width: 480px) {
+  #header {
+    height: 100px; /* Further adjust height for very small screens */
+    font-size: 1.2rem; /* Further adjust font size */
+  }
+}
+
+/* ------------------------------------------------------------------------------- */
 
 .navigbar{
   background-color: #1e293b;
+  width: 100%;
+  top: 0;
+  position: sticky;
+}
+.navbar .nav-link:hover {
+  color: #22d3ee; /* Change color on hover */
 }
 
 .abc{
@@ -68,6 +89,7 @@
   align-items: center;
   gap: 20px; /* Space between each item */
   margin: auto;
+   
 }
 
 /* ---------------------overview----------------------------  */
