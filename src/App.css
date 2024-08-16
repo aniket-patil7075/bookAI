@@ -54,14 +54,14 @@
 }
 @media (max-width: 768px) {
   #header {
-    height: 120px; /* Adjust height for smaller screens */
+    height: 150px; /* Adjust height for smaller screens */
     font-size: 1.5rem; /* Adjust font size for better readability */
   }
 }
 
 @media (max-width: 480px) {
   #header {
-    height: 100px; /* Further adjust height for very small screens */
+    height: 150px; /* Further adjust height for very small screens */
     font-size: 1.2rem; /* Further adjust font size */
   }
 }
@@ -81,6 +81,12 @@
 .abc{
   color: #e2e8f0;
   font-weight: bold;
+  justify-content: space-evenly;
+  padding: 16px 0px;
+}
+
+#abc{
+  margin-left: 230px;
 }
 
 .navbar{
@@ -89,7 +95,52 @@
   align-items: center;
   gap: 20px; /* Space between each item */
   margin: auto;
-   
+  margin: -8px;
+}
+
+  .navbar {
+    padding: 10px; /* Adjust padding for mobile devices */
+  }
+
+  .abc {
+    font-size: 14px; /* Adjust font size for mobile devices */
+  }
+
+/* Media Query for tablets and smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .navbar-links {
+    display: none; /* Hide links initially */
+    flex-direction: column;
+    width: 100%;
+    background-color: #1e293b;
+    padding: 0;
+  }
+
+  .navbar-links.active {
+    display: flex; /* Show links when active */
+  }
+
+  .navbar-links .abc {
+    padding: 15px;
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #334155;
+  }
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px; /* Adjust padding for mobile devices */
+  }
+
+  .navbar-links .abc {
+    font-size: 14px; /* Adjust font size for mobile devices */
+  }
 }
 
 /* ---------------------overview----------------------------  */
@@ -97,7 +148,7 @@
   display: flex;
   justify-content: center; /* Center the items horizontally */
   align-items: center;
-  
+  /* margin: 0px 0px 32px; */
 }
 .main{
   background-color: #1e293b;
@@ -112,6 +163,26 @@
 #title{
   color: #a5b4fc;
   padding-top: 32px;
+}
+@media (max-width: 768px) {
+  .contain {
+    padding: 0 16px; /* Adjust padding for smaller screens */
+  }
+
+  .main {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+  .contain {
+    padding: 0 16px; /* Further adjust padding for mobile devices */
+  }
+
+  .main {
+    padding: 20; /* Adjust padding for mobile devices */
+  }
 }
 
 .main .api{
